@@ -1,3 +1,3 @@
-[submodule "child"]
-	path = child
+[submodule "shared"]
+	path = shared
 	url = https://github.com/spirimy/child.git
