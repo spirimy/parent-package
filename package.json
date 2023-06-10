@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "deps": "npm i && cd ./src/shared && npm i",
+    "deps": "yarn install && cd ./src/shared && yarn install",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -16,5 +16,9 @@
   },
   "dependencies": {
     "voca": "^1.4.1"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/spirimy/parent.git",
+  "author": "Mykola Voinikov <qwoxa1@gmail.com>",
+  "license": "MIT"
 }
