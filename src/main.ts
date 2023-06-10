@@ -1,4 +1,6 @@
 import capitalize from 'voca/capitalize'
+// @ts-expect-error
+import checkAppliactionStatus from './shared';
 
 function setupCounter(element: HTMLButtonElement) {
   let counter = 0
@@ -8,6 +10,8 @@ function setupCounter(element: HTMLButtonElement) {
   }
   element.addEventListener('click', () => setCounter(counter + 1))
   setCounter(0)
+
+  console.log(checkAppliactionStatus('some-status-code'));
 }
 
 
