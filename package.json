@@ -1,5 +1,5 @@
 {
-  "name": "surface",
+  "name": "parent-package",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,10 +15,11 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
+    "@myspiratio/child-package": "^1.0.0",
     "voca": "^1.4.1"
   },
   "main": "index.js",
-  "repository": "https://github.com/spirimy/parent.git",
+  "repository": "https://github.com/spirimy/parent-package.git",
   "author": "Mykola Voinikov <qwoxa1@gmail.com>",
   "license": "MIT"
 }
