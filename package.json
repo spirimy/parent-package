@@ -15,7 +15,7 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
-    "@myspiratio/child-package": "^1.0.0",
+    "@spirimy/child-package": "^1.0.0",
     "voca": "^1.4.1"
   },
   "main": "index.js",

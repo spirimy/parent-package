@@ -1,6 +1,6 @@
 import capitalize from 'voca/capitalize'
 // @ts-expect-error
-import checkAppliactionStatus from '@myspiratio/child-package';
+import checkAppliactionStatus from '@spirimy/child-package';
 
 function setupCounter(element: HTMLButtonElement) {
   let counter = 0
